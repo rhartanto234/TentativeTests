@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="pokemonChoices.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+
+
+	<body>
+	<h1 style="text-align: center;" > Choose your Pokemon!</h1>
+		<table class="pikachu">
+			<tr>
+				<td class="pikachuu"><p>Pikachu!<br><img src="https://media1.tenor.com/images/d2bb3eda458a97a7b3a2a6ca9d973989/tenor.gif?itemid=7869385" alt="Pikachu"></td>
+			</tr>
+		</table>
+		<table class="others">
+			<tr>
+				<td>
+					<div class="grass">
+						<p>Bulbasaur!</p>
+						<br>
+						<button class="collapsible">Nature:</button>
+							<div class="content">
+								<p>Male: Docile <br>Female: Calm</p>
+							</div>
+							
+						<button class="collapsible">Description:</button>
+							<div class="content">
+								<p>Bulbasaur's Overgrow Ability powers up Grass-type moves when it's weakened.</p>
+							</div>
+
+						<img src="http://upload2.inven.co.kr/upload/2016/07/20/bbs/i12520469994.gif" alt="Bulbasaur">
+					</div>
+				</td>
+				<td>
+					<div class="fire">
+						<p>Charmander!</p>
+						<br>
+						<img src="https://media.giphy.com/media/AsTWK2GUBplf2/giphy.gif" alt="Charmander">
+					</div>
+				</td>
+				<td>
+					<div class="water">
+						<p>Squirtle!</p>
+						<br>
+						<img src="https://i.imgur.com/oUhCd5p.gif" alt="Squirtle">
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<div class="grass">
+						<p>Chikorita!</p>
+						<br>
+						<img src="https://media.giphy.com/media/agkBAsoUOFxzG/giphy.gif" alt="Chikorita">
+					</div>
+				</td>
+				<td>
+					<div class="fire">
+						<p>Cyndaquil!</p>
+						<br>
+						<img src="https://media1.tenor.com/images/ba8baecb2fa3205f5bdabe4b014821a3/tenor.gif?itemid=7224105" alt="Cyndaquil">
+					</div>
+				</td>
+				<td>
+					<div class="water">
+						<p>Tododile!</p>
+						<br>
+						<img src="https://media1.tenor.com/images/660b25a6e035e85a0fd53d1be1a34cfb/tenor.gif?itemid=5688202" alt="Tododile">
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<div class="grass">
+						<p>Treecko!</p>
+						<br>
+						<img src="https://i.kym-cdn.com/photos/images/original/000/824/888/c86.gif" alt="Treecko">
+					</div>
+				</td>
+				<td>
+					<div class="fire">
+						<p>Torchic!</p>
+						<br>
+						<img src="https://media1.tenor.com/images/272bd23d81e5aec8c54fb152f4876b0e/tenor.gif?itemid=4735086" alt="Torchic">
+					</div>
+				</td>
+				<td>
+					<div class="water">
+						<p>Mudkip!</p>
+						<br>
+						<img src="http://www.cafecomastrologia.com.br/wp-content/uploads/2016/08/Gemeos-pokemon-GO.gif" alt="Mudkip">
+					</div>
+				</td>
+			</tr>
+		</table>
+
+
+	</body>
+	
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+			  content.style.display = "none";
+			} else {
+			  content.style.display = "block";
+			}
+		  });
+		}
+	</script>
+
+</html>
