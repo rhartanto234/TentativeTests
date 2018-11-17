@@ -1,0 +1,80 @@
+* {
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+.pikachu {
+	width: 90%;
+	width: 100%;
+	
+}
+
+.pikachuu {
+	background-color: #FBE6A2;
+}
+
+table {
+	width: 100%;
+}
+
+.other {
+	width: 30%;
+}
+
+img {
+	height: 320px; 
+	object: fit;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+
+td {
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+p {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.grass {
+	background-color: #BBDFB4;
+} 
+
+.fire {
+	background-color: #E49F9F;
+}
+
+.water {
+	background-color: #B2C8E9;
+}
+
+.collapsible {
+	background-color: rgba(0, 0, 0, .3);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgba(0, 0, 0, .5);
+	color: white;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, .6);
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+}
+
